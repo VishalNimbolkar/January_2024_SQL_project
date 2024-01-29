@@ -7,3 +7,5 @@ __Embarked on a fascinating SQL journey, tackling 20+ problems using a Kaggle da
 
 
 __Feel free to join the conversation, ask questions, and let's explore the wonders of SQL together! 🤝🗣️__
+
+__Kaggle dataset link:__   https://www.kaggle.com/datasets/mexwell/famous-paintings
