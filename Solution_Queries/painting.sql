@@ -51,7 +51,6 @@ where ctid not in (
 select min(ctid) from public.image_link group by work_id );
 
 
-
 -- 7. Identify the museums with invalid city information in the given dataset
 
 select * from public.museum where city  ~ '^[0-9]';
