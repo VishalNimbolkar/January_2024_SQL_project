@@ -11,3 +11,4 @@ data_files = ['artist', 'canvas_size', 'image_link', 'museum_hours', 'museum', '
 for file in data_files:
     df = pd.read_csv(f'C:/Users/visha/Personal/Techtfq/Famous_Painting_Dataset/{file}.csv')
     df.to_sql(file, con=conn, if_exists='replace', index=False)
+    
